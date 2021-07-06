@@ -10,7 +10,7 @@ const ReviewItem = (props) => {
     return (
         <div style={styleCart}>
             <h4>{name}</h4>
-            <p>Quantity{quantity}</p>
+            <p>Quantity:{quantity}</p>
             <p>price:{price}</p>
             <button onClick={()=>props.handleRemoveBtn(key)} className="btn btn-danger">Remove</button>
         </div>
